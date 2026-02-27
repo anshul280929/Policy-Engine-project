@@ -34,16 +34,16 @@
                                             │
                               ┌─────────────┴──────────────┐
                               │                            │
-                     ┌────────▼────────┐        ┌──────────▼────────┐
-                     │  PostgreSQL     │        │  MongoDB           │
-                     │  (Neon)         │        │  (Mongoose)        │
-                     │                 │        │                    │
-                     │  • policies     │        │  • PolicyRules     │
-                     │  • policy_tags  │        │  • PolicyScoring   │
+                     ┌────────▼────────┐        ┌──────────▼────────── ┐
+                     │  PostgreSQL     │        │  MongoDB             │
+                     │  (Neon)         │        │  (Mongoose)          │
+                     │                 │        │                      │
+                     │  • policies     │        │  • PolicyRules       │
+                     │  • policy_tags  │        │  • PolicyScoring     │
                      │  • audit_log    │        │  • PolicyDecisionTree│
-                     │  • approval_queue│       │  • PolicyClauses   │
-                     │  • versions     │        │  • SimulationResult│
-                     └─────────────────┘        └────────────────────┘
+                     │  • approval_queue│       │  • PolicyClauses     │
+                     │  • versions     │        │  • SimulationResult  │
+                     └─────────────────┘        └────────────────────  ┘
 ```
 
 ### Dual-Database Design
